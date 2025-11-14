@@ -36,7 +36,7 @@
 </ul>
 pip install django==3.0.5<br>
 pip install django-widget-tweaks<br>
-pip install xhtml2pdf<br>
+pip install xhtml2pdf<br><br><br><br>
 
 <ul>
   <li>Download This Project Zip Folder and Extract it</li>
@@ -45,7 +45,7 @@ pip install xhtml2pdf<br>
 
 py manage.py makemigrations<br>
 py manage.py migrate<br>
-py manage.py runserver<br>
+py manage.py runserver<br><br><br><br>
 
 <ul>
   <li>Now enter following URL in Your Browser Installed On Your Pc</li>
@@ -59,7 +59,7 @@ py manage.py runserver<br>
 
 EMAIL_HOST_USER = 'youremail@gmail.com'<br>
 EMAIL_HOST_PASSWORD = 'your email password'<br>
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'<br>
+EMAIL_RECEIVING_USER = 'youremail@gmail.com'<br><br><br><br>
 
 <ul>
   <li>Login to gmail through host email id in your browser and open following link and turn it ON</li>
