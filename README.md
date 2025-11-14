@@ -28,3 +28,55 @@
   <li>Can book appointments (approval required by admin).</li>
   <li>Can view/download Invoice pdf (Only when that patient is discharged by admin).</li>
 </ul>
+
+<h1>HOW TO RUN THIS PROJECT</h1>
+<ul>
+  <li>Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python).</li>
+  <li>Open Terminal and Execute Following Commands :</li>
+</ul>
+pip install django==3.0.5
+pip install django-widget-tweaks
+pip install xhtml2pdf
+
+<ul>
+  <li>Download This Project Zip Folder and Extract it</li>
+  <li>Move to project folder in Terminal. Then run following Commands :</li>
+</ul>
+
+py manage.py makemigrations
+py manage.py migrate
+py manage.py runserver
+
+<ul>
+  <li>Now enter following URL in Your Browser Installed On Your Pc</li>
+</ul>
+
+<h1>CHANGES REQUIRED FOR CONTACT US PAGE</h1>
+
+<ul>
+  <li>In settins.py file, You have to give your email and password</li>
+</ul>
+
+EMAIL_HOST_USER = 'youremail@gmail.com'
+EMAIL_HOST_PASSWORD = 'your email password'
+EMAIL_RECEIVING_USER = 'youremail@gmail.com'
+
+<ul>
+  <li>Login to gmail through host email id in your browser and open following link and turn it ON</li>
+</ul>
+
+https://myaccount.google.com/lesssecureapps
+
+<h1>Drawbacks/LoopHoles</h1>
+
+<ul>
+  <li>Any one can be Admin. There is no Approval required for admin account. So you can disable admin signup process and use any logic like creating superuser.</li>
+  <li>There should be at least one doctor in hospital before admitting patient. So first add doctor.</li>
+  <li>On update page of doctor/patient you must have to update password.</li>
+</ul>
+
+<h1>Disclaimer</h1>
+
+<ul>
+  <li>This project is developed for demo purpose and it's not supposed to be used in real application.</li>
+</ul>
