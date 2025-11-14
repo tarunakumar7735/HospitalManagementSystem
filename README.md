@@ -34,18 +34,18 @@
   <li>Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python).</li>
   <li>Open Terminal and Execute Following Commands :</li>
 </ul>
-pip install django==3.0.5
-pip install django-widget-tweaks
-pip install xhtml2pdf
+pip install django==3.0.5<br>
+pip install django-widget-tweaks<br>
+pip install xhtml2pdf<br>
 
 <ul>
   <li>Download This Project Zip Folder and Extract it</li>
   <li>Move to project folder in Terminal. Then run following Commands :</li>
 </ul>
 
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
+py manage.py makemigrations<br>
+py manage.py migrate<br>
+py manage.py runserver<br>
 
 <ul>
   <li>Now enter following URL in Your Browser Installed On Your Pc</li>
@@ -57,9 +57,9 @@ py manage.py runserver
   <li>In settins.py file, You have to give your email and password</li>
 </ul>
 
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
+EMAIL_HOST_USER = 'youremail@gmail.com'<br>
+EMAIL_HOST_PASSWORD = 'your email password'<br>
+EMAIL_RECEIVING_USER = 'youremail@gmail.com'<br>
 
 <ul>
   <li>Login to gmail through host email id in your browser and open following link and turn it ON</li>
