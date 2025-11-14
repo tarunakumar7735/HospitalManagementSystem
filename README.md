@@ -1,6 +1,6 @@
 # HospitalManagementSystem
 
-<h1>Functions</h1>h1<hr>
+<h1>Functions</h1><hr>
 
 <h1>Admin</h1>
 <ul>
